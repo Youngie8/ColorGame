@@ -1,0 +1,72 @@
+body{
+    background-color: #000;
+    margin: 0px;
+   font-family: fantasy;
+}
+.square{
+    background: #000000;
+    border-radius:40% 10%;
+    width: 30%;
+    padding-top: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: all 1.5s;
+    -webkit-transition:all 1.0s ;
+    -moz-transition: all 1.0 s;
+}
+#container{
+    width: 60%;
+    margin:0 auto;
+}
+h1{
+    line-height: 1.0;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    word-spacing: 0.2em;
+    background-color: #4682b4;
+    margin: 0px;
+    padding: 20px 0px;
+
+}
+#messageDisplay{
+    display: inline-block;
+    width: 20%;
+    color: #4682b4;
+}
+.displayOptions {
+    background: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    text-align: center;
+    padding:0px 2px;
+    margin-bottom: 10px;
+
+}
+.displayOptions span{
+    text-align: center;
+    padding: 0px 20px;
+}
+.selected{
+    background-color: #4682b4;
+    color: #fff;
+}
+#colorDisplay{
+    font-size: 150%;
+    color:navy;
+}
+button{
+    border: none;
+    height: 30px;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #4682b4;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: #4682b4;
+    color: #fff;
+}
